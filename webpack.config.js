@@ -11,11 +11,7 @@ module.exports = {
                 exclude: /node_modules/,
                 use: [
                     {
-                      options: {
-                        eslintPath: require.resolve('eslint'),
-              
-                      },
-                      loader: require.resolve('eslint-loader'),
+                      loader: 'ts-loader',
                     }
                 ]
             },

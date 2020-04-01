@@ -1,7 +1,7 @@
 import * as React from 'react';
 import NoteProps from '../types/note_props';
 
-const Note = (props: NoteProps): JSX.Element => {
+export const Note = (props: NoteProps): JSX.Element => {
     const {
         title, description,
     } = props;
@@ -12,7 +12,3 @@ const Note = (props: NoteProps): JSX.Element => {
         </div>
     )
 };
-
-module.exports = {
-    Note,
-}

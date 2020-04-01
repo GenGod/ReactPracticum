@@ -39,7 +39,8 @@ module.exports = {
         "import/extensions": 0,
         "semi": 0,
         "indent": ["error", 4],
-        "react/jsx-indent": ["error", 4]
+        "react/jsx-indent": ["error", 4],
+        "import/prefer-default-export": 0
     },
     "settings": {
         "react": {
